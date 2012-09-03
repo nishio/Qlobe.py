@@ -1,3 +1,4 @@
+C="The Qlobe (c)Yusuke Endoh, 2010. Ported to Python by NISHIO Hirokazu, 2012."
 v=0000;s="""import zlib,struct                  ,math,sys,re;d=re.sub('\s+|".*'
 '"',"", '''^Lcf<LK8,_@7gj*       "%.#%  :::##"       LJ=c5nM)Tp1g0%Xv.,S[<>YoP4
 ZojjV)O>qIH1/n[|2yE[>:i     "##%      ::##########"     eC97N-A&Kj_K_><wS5rtWk@
@@ -20,14 +21,7 @@ t="%x"%reduce(f,[   "  ####%             %###             "   ,d][1],0);e=(zlib
 1]);j="".join;e=j((    " %##                           "    *0+"{0:08b}".format
 (ord(b)))for b in e);    " #.                        "    ;s=list(s);z=360;p=(s
 .__setitem__);q,_,r=[90,    " .                   "     ,range];[(lambda w=int(
-(math.sqrt(1-((y*2.0-21)/22)**(2))*23)):[(lambda t=q*x/w+v+q: (lambda u=(e[y*z:(y+1)*z]*2)[t:t+q/w]:p((y*80)+120-w+x, " .:%#"[4 * u.count("0") / len(u)]))())() for x in r(w*2-1)])()for y in r(22)]
-
-
-
-
-
-
-
-print j(s)
-# + "; _ The Qlobe#{" "*18+ ("Copyright(C).Yusuke Endoh, 2010")}";
-""";exec(s)
+(math.sqrt(1-((y*2.0-21)/(       "#  :#######"       and 22))**2)*23)):[(lambda
+t=q*x/w+v+q:(lambda u=(e[y*z:(                  y+1)*z]*2)[t:t+q/w]:p(y*80+120-
+w+x," .:%#"[4*u.count("0")/len(u)]))()) ()for x in r(w*2-1)])() for y in r(22)]
+print(("%(nl)sC=%(C)r%(nl)s"%(dict(C=C,nl=chr(10))))+j(s)+chr(10))""";exec(s)
