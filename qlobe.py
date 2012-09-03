@@ -24,4 +24,4 @@ t="%x"%reduce(f,[   "  ####%             %###             "   ,d][1],0);e=(zlib
 (math.sqrt(1-((y*2.0-21)/(       "#  :#######"       and 22))**2)*23)):[(lambda
 t=q*x/w+v+q:(lambda u=(e[y*z:(                  y+1)*z]*2)[t:t+q/w]:p(y*80+120-
 w+x," .:%#"[4*u.count("0")/len(u)]))()) ()for x in r(w*2-1)])() for y in r(22)]
-print(("%(nl)sC=%(C)r%(nl)s"%(dict(C=C,nl=chr(10))))+j(s)+chr(10))""";exec(s)
+print(("%sC=%r%s"%(chr(10),C,chr(10))))+j(s)+chr(10) #Happy Hacking!""";exec(s)
