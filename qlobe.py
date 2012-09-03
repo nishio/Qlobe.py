@@ -1,3 +1,4 @@
+
 C="The Qlobe (c)Yusuke Endoh, 2010. Ported to Python by NISHIO Hirokazu, 2012."
 v=0000;s="""import zlib,struct                  ,math,sys,re;d=re.sub('\s+|".*'
 '"',"", '''^Lcf<LK8,_@7gj*       "%.#%  :::##"       LJ=c5nM)Tp1g0%Xv.,S[<>YoP4
@@ -25,3 +26,4 @@ t="%x"%reduce(f,[   "  ####%             %###             "   ,d][1],0);e=(zlib
 t=q*x/w+v+q:(lambda u=(e[y*z:(                  y+1)*z]*2)[t:t+q/w]:p(y*80+120-
 w+x," .:%#"[4*u.count("0")/len(u)]))()) ()for x in r(w*2-1)])() for y in r(22)]
 print(("%sC=%r%s"%(chr(10),C,chr(10))))+j(s)+chr(10) #Happy Hacking!""";exec(s)
+
