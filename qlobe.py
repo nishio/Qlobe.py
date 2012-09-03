@@ -18,10 +18,10 @@ f=lambda x,y:x*[   "  ######%           .####% ::          "   ,90][1]+(y-2)%91
 t="%x"%reduce(f,[   "  ####%             %###             "   ,d][1],0);e=(zlib
 .decompress);e=e([   " .###:             .#%             "   ,t.decode('hex')][
 1]);j="".join;e=j((    " %##                           "    *0+"{0:08b}".format
-(ord(byte)))for byte in e)
+(ord(b)))for b in e);    " #.                        "    ;
 
 
-result = list(s.ljust(80*25))
+s = list(s.ljust(80*25))
 for y in range(22):
     w = int((math.sqrt(1-((y*2.0-21)/22)**(2))*23));
     for x in range(w * 2 - 1):
@@ -29,11 +29,11 @@ for y in range(22):
         u = e[y * z: y * z + z] * 2;
         start = 90 * x / w + v + 90
         u = u[start : start + 90 / w];
-        result[(y*80)+120-w+x] = " .:%#"[4 * u.count("0") / len(u)]
+        s[(y*80)+120-w+x] = " .:%#"[4 * u.count("0") / len(u)]
 
 #for y in range(25):
-#    print "".join(result[y*80:y*80+80])
+#    print "".join(s[y*80:y*80+80])
 
-print j(result)
+print j(s)
 # + "; _ The Qlobe#{" "*18+ ("Copyright(C).Yusuke Endoh, 2010")}";
 """;exec(s)
