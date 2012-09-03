@@ -9,10 +9,8 @@ FZ0ij)7TQCI)P7u}R   "              #######################"   T5-iJbbG5P-DHB<.R
 g500x8RR%`Om7VD   "              .#############:##%   .##  ."   p4M5PFixrPvl&<p
 []1IJEGgDt8Lm#;  " %%            .################.     #.   "  bc4zS^y]0`_Pstf
 UxOC(q/,}.YOIFj  ":####:          :##############%       :   "  (k&q_VzcaAi?]^l
-CVYp''');v=([v,  "%######.              #########            "  ][0]-int((sys.\
-argv[1:]+[45])[0]))%360;s='v=%04o;s=""'%v+'"%s""'%s+'";exec(s)'
-
-d=[ord(c)for c in d];
+CVYp''');v=([v,  "%######.              #########            "  ][0]-int(((sys)
+.argv[1:]+[45])[0]))%360;s='v=%04o;s=""'%v+'"%s""'%s+'";exec(s)';d=[ord(c)for c in d];
 
 n=reduce(lambda x,y:x*90+(y-2)%91,d,0);
 
