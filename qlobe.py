@@ -28,10 +28,8 @@ t="%x"%reduce(f,[   "  ####%             %###             "   ,d][1],0);e=(zlib
 for y in range(22):
     w = int((math.sqrt(1-((y*2.0-21)/22)**(2))*23));
     for x in range(w*2-1):
-        u = e[y*z: (y+1) *z] * 2;
-        t = 90 * x / w + v + 90
-        u = u[t : t + 90 / w];
-        p((y*80)+120-w+x, " .:%#"[4 * u.count("0") / len(u)])
+        (lambda t=90*x/w+v+90: (lambda u=(e[y*z:(y+1)*z]*2)[t:t+90/w]:
+        p((y*80)+120-w+x, " .:%#"[4 * u.count("0") / len(u)]))())()
 
 #for y in range(25):
 #    print "".join(s[y*80:y*80+80])
