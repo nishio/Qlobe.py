@@ -18,18 +18,18 @@ f=lambda x,y:x*[   "  ######%           .####% ::          "   ,90][1]+(y-2)%91
 t="%x"%reduce(f,[   "  ####%             %###             "   ,d][1],0);e=(zlib
 .decompress);e=e([   " .###:             .#%             "   ,t.decode('hex')][
 1]);j="".join;e=j((    " %##                           "    *0+"{0:08b}".format
-(ord(b)))for b in e);    " #.                        "    ;
+(ord(b)))for b in e);    " #.                        "    ;s=list(s);
+#2<<".:%#")[4*u.count((     " .                   "     ;"0"))/u.size]}};;puts\
 
+p=s.__setitem__
 
-s = list(s.ljust(80*25))
 for y in range(22):
     w = int((math.sqrt(1-((y*2.0-21)/22)**(2))*23));
-    for x in range(w * 2 - 1):
-        z = 360
-        u = e[y * z: y * z + z] * 2;
+    for x in range(w*2-1):
+        u = e[y*360: (y+1) * 360] * 2;
         t = 90 * x / w + v + 90
         u = u[t : t + 90 / w];
-        s[(y*80)+120-w+x] = " .:%#"[4 * u.count("0") / len(u)]
+        p((y*80)+120-w+x, " .:%#"[4 * u.count("0") / len(u)])
 
 #for y in range(25):
 #    print "".join(s[y*80:y*80+80])
