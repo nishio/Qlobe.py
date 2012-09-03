@@ -3,7 +3,12 @@ v=0000;s="""import zlib,struct                  ,math,sys,re;d=re.sub('\s+|".*'
 ZojjV)O>qIH1/n[|2yE[>:i     "##%      ::##########"     eC97N-A&Kj_K_><wS5rtWk@
 *a+Y5yH?b[F^e7C/56j|p    "##:         ###############"    mRe+:)BO98(Zh)'Iof*nm
 .,$C5Nyt=PPu01Avw^<    "#            #.   .####:#######"    IiQ=5$'D-y?g6`YT+qL
-w9k^ch|K'),tc6ygIL8xI#LNz3v}T=4WlL27FZ0ij)7TQCI)P7u}RT5-iJbbG5P-DHB<.R,YvZ_rnv6ky-G+4U'$*are@b4U351Q-ug500x8RR%`Om7VDp4M5PFixrPvl&<p[]1IJEGgDt8Lm#;bc4zS^y]0`_PstfUxOC(q/,}.YOIFj(k&q_VzcaAi?]^lCVYp''')
+w9k^ch|K'),tc6ygIL   "              ##### # :############"   8xI#LNz3v}T=4WlL27
+FZ0ij)7TQCI)P7u}R   "              #######################"   T5-iJbbG5P-DHB<.R
+,YvZ_rnv6ky-G+4U   "              ############:####  %#####"   '$*are@b4U351Q-u
+g500x8RR%`Om7VD   "              .#############:##%   .##  ."   p4M5PFixrPvl&<p
+[]1IJEGgDt8Lm#;  " %%            .################.     #.   "  bc4zS^y]0`_Pstf
+UxOC(q/,}.YOIFj(k&q_VzcaAi?]^lCVYp''')
 
 
 v = (v - int((sys.argv[1:] + [45])[0])) % 360;s='v=%04o;s=""' % v + '"%s""' % s +'";exec(s)'
