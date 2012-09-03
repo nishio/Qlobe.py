@@ -20,16 +20,13 @@ t="%x"%reduce(f,[   "  ####%             %###             "   ,d][1],0);e=(zlib
 1]);j="".join;e=j((    " %##                           "    *0+"{0:08b}".format
 (ord(b)))for b in e);    " #.                        "    ;s=list(s);z=360;p=(s
 .__setitem__);q,_,r=[90,    " .                   "     ,range];[(lambda w=int(
-(math.sqrt(1-((y*2.0-21)/22)**(2))*23)):[(lambda t=90*x/w+v+90: (lambda u=(e[y*z:(y+1)*z]*2)[t:t+90/w]:p((y*80)+120-w+x, " .:%#"[4 * u.count("0") / len(u)]))())() for x in range(w*2-1)])()for y in range(22)]
+(math.sqrt(1-((y*2.0-21)/22)**(2))*23)):[(lambda t=q*x/w+v+q: (lambda u=(e[y*z:(y+1)*z]*2)[t:t+q/w]:p((y*80)+120-w+x, " .:%#"[4 * u.count("0") / len(u)]))())() for x in r(w*2-1)])()for y in r(22)]
 
 
 
 
 
 
-
-#for y in range(25):
-#    print "".join(s[y*80:y*80+80])
 
 print j(s)
 # + "; _ The Qlobe#{" "*18+ ("Copyright(C).Yusuke Endoh, 2010")}";
