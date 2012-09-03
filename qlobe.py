@@ -27,8 +27,8 @@ for y in range(22):
     for x in range(w * 2 - 1):
         z = 360
         u = e[y * z: y * z + z] * 2;
-        start = 90 * x / w + v + 90
-        u = u[start : start + 90 / w];
+        t = 90 * x / w + v + 90
+        u = u[t : t + 90 / w];
         s[(y*80)+120-w+x] = " .:%#"[4 * u.count("0") / len(u)]
 
 #for y in range(25):
