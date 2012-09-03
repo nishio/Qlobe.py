@@ -8,20 +8,18 @@ FZ0ij)7TQCI)P7u}R   "              #######################"   T5-iJbbG5P-DHB<.R
 ,YvZ_rnv6ky-G+4U   "              ############:####  %#####"   '$*are@b4U351Q-u
 g500x8RR%`Om7VD   "              .#############:##%   .##  ."   p4M5PFixrPvl&<p
 []1IJEGgDt8Lm#;  " %%            .################.     #.   "  bc4zS^y]0`_Pstf
-UxOC(q/,}.YOIFj(k&q_VzcaAi?]^lCVYp''')
+UxOC(q/,}.YOIFj(k&q_VzcaAi?]^lCVYp''');
 
+v=(v-int((sys.argv[1:]+[45])[0]))%360;s='v=%04o;s=""'%v+'"%s""'%s+'";exec(s)'
 
-v = (v - int((sys.argv[1:] + [45])[0])) % 360;s='v=%04o;s=""' % v + '"%s""' % s +'";exec(s)'
+d=[ord(c)for c in d];
 
+n=reduce(lambda x,y:x*90+(y-2)%91,d,0);
 
-d=[ord(c) for c in d]
+e=zlib.decompress(("%x"%n).decode('hex'))
 
-n=reduce(lambda x, y: x * 90 + (y - 2) % 91, d, 0)
-
-e=zlib.decompress(("%x" % n).decode('hex'))
-
-e="".join("{0:08b}".format(ord(byte)) for byte in e)
-result = list(s.ljust(80 * 25))
+e="".join("{0:08b}".format(ord(byte))for byte in e)
+result = list(s.ljust(80*25))
 for y in range(22):
     w = int((math.sqrt(1-((y*2.0-21)/22)**(2))*23));
     for x in range(w * 2 - 1):
