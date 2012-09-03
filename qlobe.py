@@ -15,8 +15,8 @@ s=('v=%04o;'%v+  "###########           :######.             "  *0+'s=""'+'"'+s
 +'""'+'";exe'+[  ":#########:           .######: .           "  ][0]*0+'c(s)');
 d=[([ord(c)] or   " :#######%           :###### #:          "   )[0]for c in d]
 f=lambda x,y:x*[   "  ######%           .####% ::          "   ,90][1]+(y-2)%91
-t="%x"%reduce(f,d,0)
-e=zlib.decompress((t).decode('hex'))
+t="%x"%reduce(f,[   "  ####%             %###             "   ,d][1],0);e=(zlib
+.decompress((t).decode('hex')))
 
 e="".join("{0:08b}".format(ord(byte))for byte in e)
 result = list(s.ljust(80*25))
