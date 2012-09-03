@@ -17,7 +17,10 @@ d=[([ord(c)] or   " :#######%           :###### #:          "   )[0]for c in d]
 f=lambda x,y:x*[   "  ######%           .####% ::          "   ,90][1]+(y-2)%91
 t="%x"%reduce(f,[   "  ####%             %###             "   ,d][1],0);e=(zlib
 .decompress);e=e([   " .###:             .#%             "   ,t.decode('hex')][
-1]);e="".join("{0:08b}".format(ord(byte))for byte in e)
+1]);j="".join;e=j((    " %##                           "    *0+"{0:08b}".format
+(ord(byte)))for byte in e)
+
+
 result = list(s.ljust(80*25))
 for y in range(22):
     w = int((math.sqrt(1-((y*2.0-21)/22)**(2))*23));
@@ -31,6 +34,6 @@ for y in range(22):
 #for y in range(25):
 #    print "".join(result[y*80:y*80+80])
 
-print "".join(result)
+print j(result)
 # + "; _ The Qlobe#{" "*18+ ("Copyright(C).Yusuke Endoh, 2010")}";
 """;exec(s)
