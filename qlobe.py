@@ -8,9 +8,8 @@ FZ0ij)7TQCI)P7u}R   "              #######################"   T5-iJbbG5P-DHB<.R
 ,YvZ_rnv6ky-G+4U   "              ############:####  %#####"   '$*are@b4U351Q-u
 g500x8RR%`Om7VD   "              .#############:##%   .##  ."   p4M5PFixrPvl&<p
 []1IJEGgDt8Lm#;  " %%            .################.     #.   "  bc4zS^y]0`_Pstf
-UxOC(q/,}.YOIFj(k&q_VzcaAi?]^lCVYp''');
-
-v=(v-int((sys.argv[1:]+[45])[0]))%360;s='v=%04o;s=""'%v+'"%s""'%s+'";exec(s)'
+UxOC(q/,}.YOIFj  ":####:          :##############%       :   "  (k&q_VzcaAi?]^l
+CVYp''');v=([v,  "%######.              #########            "  ][0]-int((sys.argv[1:]+[45])[0]))%360;s='v=%04o;s=""'%v+'"%s""'%s+'";exec(s)'
 
 d=[ord(c)for c in d];
 
