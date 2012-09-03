@@ -16,9 +16,8 @@ s=('v=%04o;'%v+  "###########           :######.             "  *0+'s=""'+'"'+s
 d=[([ord(c)] or   " :#######%           :###### #:          "   )[0]for c in d]
 f=lambda x,y:x*[   "  ######%           .####% ::          "   ,90][1]+(y-2)%91
 t="%x"%reduce(f,[   "  ####%             %###             "   ,d][1],0);e=(zlib
-.decompress((t).decode('hex')))
-
-e="".join("{0:08b}".format(ord(byte))for byte in e)
+.decompress);e=e([   " .###:             .#%             "   ,t.decode('hex')][
+1]);e="".join("{0:08b}".format(ord(byte))for byte in e)
 result = list(s.ljust(80*25))
 for y in range(22):
     w = int((math.sqrt(1-((y*2.0-21)/22)**(2))*23));
